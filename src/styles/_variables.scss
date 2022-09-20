@@ -1,0 +1,48 @@
+// -----------------------------------------------------------------------------------------------------
+// @ variables
+// -----------------------------------------------------------------------------------------------------
+
+// breakpoints
+$tm-breakpoint: 280px;
+$xs-breakpoint: 600px;
+$sm-breakpoint: 960px;
+$md-breakpoint: 1280px;
+$lg-breakpoint: 1920px;
+
+// snackbars colors
+//success
+$snackbar-success-background-color: #eaf7ee;
+$snackbar-success-color: #3b4655;
+$snackbar-success-icon-color: #39b059;
+$snackbar-success-border-color: #bcdfc3;
+//error
+$snackbar-error-background-color: #f3c3c3;
+$snackbar-error-color: #3b4655;
+$snackbar-error-icon-color: #fb6666;
+$snackbar-error-border-color: #fc8383;
+//info
+$snackbar-info-background-color: #95c5dd;
+$snackbar-info-color: #3b4655;
+$snackbar-info-border-color: #47c0fc;
+$snackbar-info-icon-color: #039be5;
+
+
+// element dimensions;
+$toolbar-height: 87px;
+$header-height: 50px;
+$overview-widrh: 50%;
+$public-content-width: 50%;
+$toolbar-mobile-height: 50px;
+
+// if change navbar dimensions here then change it on private-layout html component
+$navbar-oppened-width: 270px;
+$navbar-closed-width: 20px;
+
+$light-grey-bg-color:#0303030c;
+
+// status colors
+$draft-status-color: #039be5;
+$deleted-status-color: #3b4655;
+$ended-status-color: #fc8383;
+$live-status-color: #39b059;
+

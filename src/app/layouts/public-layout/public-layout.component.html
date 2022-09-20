@@ -1,0 +1,19 @@
+<div class="public_layout">
+    <div class="public_page_container">
+        <div class="public_header">
+            <div> <span><a href='https://capsit.fr' target="_blank"> capsit.fr</a></span></div>
+            <span> Fr</span>
+        </div>
+        <div class="public_page_content">
+            <router-outlet></router-outlet>
+        </div>
+        <div class="public_footer">
+            <div *ngFor="let item of footerContent">
+                <a class="fotter_item" href="item.to" target="_blank">
+                    {{item.name}}
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
